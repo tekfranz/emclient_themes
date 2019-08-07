@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<tekFranz_Theme name="" author="">
+<DarkColorTheme name="" author="">
   <!--Form-->
-  <MainBoxBorderColor description="Color of a space around messages/contact/event/task list">##777E7D</MainBoxBorderColor>
+  <MainBoxBorderColor description="Color of a space around messages/contact/event/task list">#777E7D</MainBoxBorderColor>
   <FormBackground description="Background color of all windows">#777E7D</FormBackground>
   <FormForeground description="Color of texts in all windows">#FFFFFF</FormForeground>
   <FormCaptionButtonColors>
@@ -39,8 +39,8 @@
   <ReadMailFormBackground description="Background color of a form used for reading emails">#777E7D</ReadMailFormBackground>
   <SendMailFormBackground description="Background color of a form used for composing emails">#777E7D</SendMailFormBackground>
   <MainFormBackgroundStart description="Starting color of the gradient used as the background for the main window">#777E7D</MainFormBackgroundStart>
-  <MainFormBackgroundEnd description="Ending color of the gradient used as the background for the main window">#D2D5D5</MainFormBackgroundEnd>
-  <MainFormHeader description="Header background color for main window">#929897</MainFormHeader>
+  <MainFormBackgroundEnd description="Ending color of the gradient used as the background for the main window">#E2E4E4</MainFormBackgroundEnd>
+  <MainFormHeader description="Header background color for main window">#26272A</MainFormHeader>
   <MainFormHeaderActive description="Header background color for active main window">Transparent</MainFormHeaderActive>
   <ButtonBackground description="Background color of all buttons">#777E7D</ButtonBackground>
   <ButtonForeground description="Text color of all buttons">#FFFFFF</ButtonForeground>
@@ -59,9 +59,9 @@
   <ShowMainFormVerticalSplitterLines description="Indicates if a vertical line should be displayed between the messages/contact/event/task list and left or right sidebar">True</ShowMainFormVerticalSplitterLines>
   <VerticalSplitterLinesSpace description="Space around a vertical line between the messages/contact/event/task list and left or right sidebar">8</VerticalSplitterLinesSpace>
   <ShowMainFormHorizontalTopLine description="Indicates if a horizontal line should be displayed above the message list">False</ShowMainFormHorizontalTopLine>
-  <GroupHeaderBackground description="Background color of group header">#777E7D</GroupHeaderBackground>
+  <GroupHeaderBackground description="Background color of group header">#303136</GroupHeaderBackground>
   <GroupHeaderForeground description="Text color of group header">#FFFFFF</GroupHeaderForeground>
-  <WizardHeaderBackground description="Background color of Wizard header">#777E7D</WizardHeaderBackground>
+  <WizardHeaderBackground description="Background color of Wizard header">#303136</WizardHeaderBackground>
   <WizardHeaderForeground description="Text color of Wizard header">#FFFFFF</WizardHeaderForeground>
   <!--Message list-->
   <MessagesMultilineFirstLineColor description="Color of a text shown on the first line for a multiline message list">#FFFFFF</MessagesMultilineFirstLineColor>
@@ -82,32 +82,32 @@
   <!--Search box-->
   <SearchBoxActiveBorderColor description="Border of a search box on the main form when search is currently active">#FF9400</SearchBoxActiveBorderColor>
   <!--Mail header-->
-  <MailHeaderBackground description="Background color of a bar with a basic information about the email">#777E7D</MailHeaderBackground>
+  <MailHeaderBackground description="Background color of a bar with a basic information about the email">#222327</MailHeaderBackground>
   <MailHeaderLink description="Color of an email address shown in the bar with a basic information about the email">#88C1FF</MailHeaderLink>
   <MailHeaderForeground description="Color of a text in the bar with a basic information about the email">White</MailHeaderForeground>
   <!--Grid-->
   <GridHeaderStart description="Starting color of the gradient used for the column headers in datagrid">#777E7D</GridHeaderStart>
   <GridHeaderMiddle description="Middle color of the gradient used for the column headers in datagrid">#777E7D</GridHeaderMiddle>
   <GridHeaderEnd description="Ending color of the gradient used for the column headers in datagrid">#777E7D</GridHeaderEnd>
-  <GridHeaderHoveredStart description="Starting color of the gradient used for the column headers in datagrid when the mouse is over">#777E7D</GridHeaderHoveredStart>
-  <GridHeaderHoveredMiddle description="Middle color of the gradient used for the column headers in datagrid when the mouse is over">#777E7D</GridHeaderHoveredMiddle>
-  <GridHeaderHoveredEnd description="Ending color of the gradient used for the column headers in datagrid when the mouse is over">#777E7D</GridHeaderHoveredEnd>
-  <GridHeaderPressedStart description="Starting color of the gradient used for the column headers in datagrid when the left mouse button is pressed on the column header">#777E7D</GridHeaderPressedStart>
-  <GridHeaderPressedMiddle description="Middle color of the gradient used for the column headers in datagrid when the left mouse button is pressed on the column header">#777E7D</GridHeaderPressedMiddle>
-  <GridHeaderPressedEnd description="Ending color of the gradient used for the column headers in datagrid when the left mouse button is pressed on the column header">#777E7D</GridHeaderPressedEnd>
+  <GridHeaderHoveredStart description="Starting color of the gradient used for the column headers in datagrid when the mouse is over">#222327</GridHeaderHoveredStart>
+  <GridHeaderHoveredMiddle description="Middle color of the gradient used for the column headers in datagrid when the mouse is over">#222327</GridHeaderHoveredMiddle>
+  <GridHeaderHoveredEnd description="Ending color of the gradient used for the column headers in datagrid when the mouse is over">#222327</GridHeaderHoveredEnd>
+  <GridHeaderPressedStart description="Starting color of the gradient used for the column headers in datagrid when the left mouse button is pressed on the column header">#222327</GridHeaderPressedStart>
+  <GridHeaderPressedMiddle description="Middle color of the gradient used for the column headers in datagrid when the left mouse button is pressed on the column header">#222327</GridHeaderPressedMiddle>
+  <GridHeaderPressedEnd description="Ending color of the gradient used for the column headers in datagrid when the left mouse button is pressed on the column header">#222327</GridHeaderPressedEnd>
   <GridHeaderFontColor description="Color of the text shown in the datagrid column headers">#C8C8C8</GridHeaderFontColor>
   <GridHeaderBorder description="Color of the bottom border in the datagrid column headers">#E7E8E9</GridHeaderBorder>
   <GridBackground description="Background color of a datagrid">#777E7D</GridBackground>
   <GridFontColor description="Font color in a datagrid">#FFFFFF</GridFontColor>
-  <GridOddItemBackground description="Alternating background color for the odd items in a datagrid">#777E7D</GridOddItemBackground>
-  <GridSelectedItemBackgroundStart description="Starting color of the gradient used as a background for the selected items in datagrid">#777E7D</GridSelectedItemBackgroundStart>
-  <GridSelectedItemBackgroundEnd description="Ending color of the gradient used as a background for the selected items in datagrid">#777E7D</GridSelectedItemBackgroundEnd>
-  <GridSelectedItemBackgroundInactiveStart description="Starting color of the gradient used as a background for the selected items in datagrid when the datagrid is not active">#777E7D</GridSelectedItemBackgroundInactiveStart>
-  <GridSelectedItemBackgroundInactiveEnd description="Ending color of the gradient used as a background for the selected items in datagrid when the datagrid is not active">#777E7D</GridSelectedItemBackgroundInactiveEnd>
-  <GridFocusedItemBackgroundStart description="Starting color of the gradient used as a background for the focused item in datagrid">#777E7D</GridFocusedItemBackgroundStart>
-  <GridFocusedItemBackgroundEnd description="Starting color of the gradient used as a background for the focused item in datagrid">#777E7D</GridFocusedItemBackgroundEnd>
+  <GridOddItemBackground description="Alternating background color for the odd items in a datagrid">#303136</GridOddItemBackground>
+  <GridSelectedItemBackgroundStart description="Starting color of the gradient used as a background for the selected items in datagrid">#222327</GridSelectedItemBackgroundStart>
+  <GridSelectedItemBackgroundEnd description="Ending color of the gradient used as a background for the selected items in datagrid">#222327</GridSelectedItemBackgroundEnd>
+  <GridSelectedItemBackgroundInactiveStart description="Starting color of the gradient used as a background for the selected items in datagrid when the datagrid is not active">#303136</GridSelectedItemBackgroundInactiveStart>
+  <GridSelectedItemBackgroundInactiveEnd description="Ending color of the gradient used as a background for the selected items in datagrid when the datagrid is not active">#303136</GridSelectedItemBackgroundInactiveEnd>
+  <GridFocusedItemBackgroundStart description="Starting color of the gradient used as a background for the focused item in datagrid">#222327</GridFocusedItemBackgroundStart>
+  <GridFocusedItemBackgroundEnd description="Starting color of the gradient used as a background for the focused item in datagrid">#222327</GridFocusedItemBackgroundEnd>
   <GridSelectedItemFontColor description="Color of the text for the selected items in datagrid">#FFFFFF</GridSelectedItemFontColor>
-  <GridFocusedItemRecangle description="Color of the border line for the focused item in datagrid">#777E7D</GridFocusedItemRecangle>
+  <GridFocusedItemRecangle description="Color of the border line for the focused item in datagrid">#26272A</GridFocusedItemRecangle>
   <GridColor description="Color of the grid lines">#777E7D</GridColor>
   <GridSelectedItemBorder description="Color of the border line for the selected items in datagrid">Transparent</GridSelectedItemBorder>
   <GridDisabledItemBorder description="Color of the border line for the selected items in datagrid when the datagrid is not active">Transparent</GridDisabledItemBorder>
@@ -118,9 +118,9 @@
   <MainFormGridHeaderStart description="Starting color of the gradient used for the column headers in datagrid in the main window">#777E7D</MainFormGridHeaderStart>
   <MainFormGridHeaderMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window">#777E7D</MainFormGridHeaderMiddle>
   <MainFormGridHeaderEnd description="Ending color of the gradient used for the column headers in datagrid in the main window">#777E7D</MainFormGridHeaderEnd>
-  <MainFormGridHeaderHoveredStart description="Starting color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#777E7D</MainFormGridHeaderHoveredStart>
-  <MainFormGridHeaderHoveredMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#777E7D</MainFormGridHeaderHoveredMiddle>
-  <MainFormGridHeaderHoveredEnd description="Ending color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#777E7D</MainFormGridHeaderHoveredEnd>
+  <MainFormGridHeaderHoveredStart description="Starting color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#303136</MainFormGridHeaderHoveredStart>
+  <MainFormGridHeaderHoveredMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#303136</MainFormGridHeaderHoveredMiddle>
+  <MainFormGridHeaderHoveredEnd description="Ending color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#303136</MainFormGridHeaderHoveredEnd>
   <MainFormGridHeaderPressedStart description="Starting color of the gradient used for the column headers in datagrid in the main window when the left mouse button is pressed on the column header">#D0E6FE</MainFormGridHeaderPressedStart>
   <MainFormGridHeaderPressedMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window when the left mouse button is pressed on the column header">#D0E6FE</MainFormGridHeaderPressedMiddle>
   <MainFormGridHeaderPressedEnd description="Ending color of the gradient used for the column headers in datagrid in the main window when the left mouse button is pressed on the column header">#D0E6FE</MainFormGridHeaderPressedEnd>
@@ -128,29 +128,29 @@
   <MainFormGridHeaderBorder description="Color of the bottom border in the main window datagrid column headers">#E7E8E9</MainFormGridHeaderBorder>
   <MainFormGridBackground description="Background color of a datagrid in the main window">#777E7D</MainFormGridBackground>
   <MainFormGridFontColor description="Font color in a datagrid in the main window">White</MainFormGridFontColor>
-  <MainFormGridOddItemBackground description="Alternating background color for the odd items in a datagrid in the main window">#777E7D</MainFormGridOddItemBackground>
-  <MainFormGridSelectedItemBackgroundStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window">#777E7D</MainFormGridSelectedItemBackgroundStart>
-  <MainFormGridSelectedItemBackgroundEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window">#777E7D</MainFormGridSelectedItemBackgroundEnd>
-  <MainFormGridSelectedItemBackgroundInactiveStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#777E7D</MainFormGridSelectedItemBackgroundInactiveStart>
-  <MainFormGridSelectedItemBackgroundInactiveEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#777E7D</MainFormGridSelectedItemBackgroundInactiveEnd>
-  <MainFormGridFocusedItemBackgroundStart description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#777E7D</MainFormGridFocusedItemBackgroundStart>
-  <MainFormGridFocusedItemBackgroundEnd description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#777E7D</MainFormGridFocusedItemBackgroundEnd>
+  <MainFormGridOddItemBackground description="Alternating background color for the odd items in a datagrid in the main window">#929897</MainFormGridOddItemBackground>
+  <MainFormGridSelectedItemBackgroundStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window">#26272A</MainFormGridSelectedItemBackgroundStart>
+  <MainFormGridSelectedItemBackgroundEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window">#26272A</MainFormGridSelectedItemBackgroundEnd>
+  <MainFormGridSelectedItemBackgroundInactiveStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#222327</MainFormGridSelectedItemBackgroundInactiveStart>
+  <MainFormGridSelectedItemBackgroundInactiveEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#222327</MainFormGridSelectedItemBackgroundInactiveEnd>
+  <MainFormGridFocusedItemBackgroundStart description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#222327</MainFormGridFocusedItemBackgroundStart>
+  <MainFormGridFocusedItemBackgroundEnd description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#222327</MainFormGridFocusedItemBackgroundEnd>
   <MainFormGridSelectedItemFontColor description="Color of the text for the selected items in datagrid in the main window">#FFFFFF</MainFormGridSelectedItemFontColor>
   <MainFormGridFocusedItemRectangle description="Color of the border line for the focused item in datagrid in the main window">#DCEBFC</MainFormGridFocusedItemRectangle>
   <MainFormGridColor description="Color of the grid lines in the main window">#000000</MainFormGridColor>
-  <MainFormGridSelectedItemBorder description="Color of the border line for the selected items in datagrid in the main window">#777E7D</MainFormGridSelectedItemBorder>
+  <MainFormGridSelectedItemBorder description="Color of the border line for the selected items in datagrid in the main window">#303136</MainFormGridSelectedItemBorder>
   <MainFormGridDisabledItemBorder description="Color of the border line for the selected items in datagrid in the main window when the datagrid is not active">Transparent</MainFormGridDisabledItemBorder>
   <MainFormGridMultilineHeaderHoveredFontColor description="Color of the text in the main window in multiline mode's header when mouse is over sort column name or sort column sort order">#FFFFFF</MainFormGridMultilineHeaderHoveredFontColor>
-  <MainFormGridConversationCountBackground>#777E7D</MainFormGridConversationCountBackground>
+  <MainFormGridConversationCountBackground>#222327</MainFormGridConversationCountBackground>
   <MainFormGridConversationCountForeground>#FFFFFF</MainFormGridConversationCountForeground>
   <UseRoundedCornersForMainDatagridSelection description="Specifies if a background for selected items in a datagrid on the main screen should be drawn with rounded corners">False</UseRoundedCornersForMainDatagridSelection>
   <!--Grid in a sidebar box-->
   <SidebarGridHeaderStart description="Starting color of the gradient used for the column headers in datagrid in the main window">#777E7D</SidebarGridHeaderStart>
   <SidebarGridHeaderMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window">#777E7D</SidebarGridHeaderMiddle>
   <SidebarGridHeaderEnd description="Ending color of the gradient used for the column headers in datagrid in the main window">#777E7D</SidebarGridHeaderEnd>
-  <SidebarGridHeaderHoveredStart description="Starting color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#777E7D</SidebarGridHeaderHoveredStart>
-  <SidebarGridHeaderHoveredMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#777E7D</SidebarGridHeaderHoveredMiddle>
-  <SidebarGridHeaderHoveredEnd description="Ending color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#777E7D</SidebarGridHeaderHoveredEnd>
+  <SidebarGridHeaderHoveredStart description="Starting color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#303136</SidebarGridHeaderHoveredStart>
+  <SidebarGridHeaderHoveredMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#303136</SidebarGridHeaderHoveredMiddle>
+  <SidebarGridHeaderHoveredEnd description="Ending color of the gradient used for the column headers in datagrid in the main window when the mouse is over">#303136</SidebarGridHeaderHoveredEnd>
   <SidebarGridHeaderPressedStart description="Starting color of the gradient used for the column headers in datagrid in the main window when the left mouse button is pressed on the column header">#D0E6FE</SidebarGridHeaderPressedStart>
   <SidebarGridHeaderPressedMiddle description="Middle color of the gradient used for the column headers in datagrid in the main window when the left mouse button is pressed on the column header">#D0E6FE</SidebarGridHeaderPressedMiddle>
   <SidebarGridHeaderPressedEnd description="Ending color of the gradient used for the column headers in datagrid in the main window when the left mouse button is pressed on the column header">#D0E6FE</SidebarGridHeaderPressedEnd>
@@ -158,17 +158,17 @@
   <SidebarGridHeaderBorder description="Color of the bottom border in the main window datagrid column headers">#E7E8E9</SidebarGridHeaderBorder>
   <SidebarGridBackground description="Background color of a datagrid in the main window">#777E7D</SidebarGridBackground>
   <SidebarGridFontColor description="Font color in a datagrid in the main window">White</SidebarGridFontColor>
-  <SidebarGridOddItemBackground description="Alternating background color for the odd items in a datagrid in the main window">#777E7D</SidebarGridOddItemBackground>
-  <SidebarGridSelectedItemBackgroundStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window">#777E7D</SidebarGridSelectedItemBackgroundStart>
-  <SidebarGridSelectedItemBackgroundEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window">#777E7D</SidebarGridSelectedItemBackgroundEnd>
-  <SidebarGridSelectedItemBackgroundInactiveStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#777E7D</SidebarGridSelectedItemBackgroundInactiveStart>
-  <SidebarGridSelectedItemBackgroundInactiveEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#777E7D</SidebarGridSelectedItemBackgroundInactiveEnd>
-  <SidebarGridFocusedItemBackgroundStart description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#777E7D</SidebarGridFocusedItemBackgroundStart>
-  <SidebarGridFocusedItemBackgroundEnd description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#777E7D</SidebarGridFocusedItemBackgroundEnd>
+  <SidebarGridOddItemBackground description="Alternating background color for the odd items in a datagrid in the main window">#303136</SidebarGridOddItemBackground>
+  <SidebarGridSelectedItemBackgroundStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window">#26272A</SidebarGridSelectedItemBackgroundStart>
+  <SidebarGridSelectedItemBackgroundEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window">#26272A</SidebarGridSelectedItemBackgroundEnd>
+  <SidebarGridSelectedItemBackgroundInactiveStart description="Starting color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#222327</SidebarGridSelectedItemBackgroundInactiveStart>
+  <SidebarGridSelectedItemBackgroundInactiveEnd description="Ending color of the gradient used as a background for the selected items in datagrid in the main window when the datagrid is not active">#222327</SidebarGridSelectedItemBackgroundInactiveEnd>
+  <SidebarGridFocusedItemBackgroundStart description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#222327</SidebarGridFocusedItemBackgroundStart>
+  <SidebarGridFocusedItemBackgroundEnd description="Starting color of the gradient used as a background for the focused item in datagrid in the main window">#222327</SidebarGridFocusedItemBackgroundEnd>
   <SidebarGridSelectedItemFontColor description="Color of the text for the selected items in datagrid in the main window">#FFFFFF</SidebarGridSelectedItemFontColor>
   <SidebarGridFocusedItemRectangle description="Color of the border line for the focused item in datagrid in the main window">#DCEBFC</SidebarGridFocusedItemRectangle>
   <SidebarGridColor description="Color of the grid lines in the main window">#000000</SidebarGridColor>
-  <SidebarGridSelectedItemBorder description="Color of the border line for the selected items in datagrid in the main window">#777E7D</SidebarGridSelectedItemBorder>
+  <SidebarGridSelectedItemBorder description="Color of the border line for the selected items in datagrid in the main window">#303136</SidebarGridSelectedItemBorder>
   <SidebarGridDisabledItemBorder description="Color of the border line for the selected items in datagrid in the main window when the datagrid is not active">Transparent</SidebarGridDisabledItemBorder>
   <SidebarGridMultilineHeaderHoveredFontColor description="Color of the text in the main window in multiline mode's header when mouse is over sort column name or sort column sort order">#FFFFFF</SidebarGridMultilineHeaderHoveredFontColor>
   <UseRoundedCornersForSidebarDatagridSelection description="Specifies if a background for selected items in a datagrid on the main screen should be drawn with rounded corners">False</UseRoundedCornersForSidebarDatagridSelection>
@@ -178,41 +178,41 @@
   <GroupsForeground description="Color of the text for a group shown in datagrid">#CCCCCC</GroupsForeground>
   <GroupsBorder description="Color of a border line for groups shown in datagrid">#E7E8E9</GroupsBorder>
   <GroupsItemsCount description="Color of the items count text in a group shown in datagrid">#A0A0A0</GroupsItemsCount>
-  <GroupsSelectedBackgroundStart description="Starting color of the gradient used as the background for selected groups shown in datagrid">#777E7D</GroupsSelectedBackgroundStart>
-  <GroupsSelectedBackgroundEnd description="Ending color of the gradient used as the background for selected groups shown in datagrid">#777E7D</GroupsSelectedBackgroundEnd>
+  <GroupsSelectedBackgroundStart description="Starting color of the gradient used as the background for selected groups shown in datagrid">#26272A</GroupsSelectedBackgroundStart>
+  <GroupsSelectedBackgroundEnd description="Ending color of the gradient used as the background for selected groups shown in datagrid">#26272A</GroupsSelectedBackgroundEnd>
   <GroupsSelectedForeground description="Color of the text for a selected group shown in datagrid">#FFFFFF</GroupsSelectedForeground>
-  <GroupsFocusedBackgroundStart description="Starting color of the gradient used as the background for a focused group shown in datagrid">#777E7D</GroupsFocusedBackgroundStart>
-  <GroupsFocusedBackgroundEnd description="Ending color of the gradient used as the background for a focused group shown in datagrid">#777E7D</GroupsFocusedBackgroundEnd>
+  <GroupsFocusedBackgroundStart description="Starting color of the gradient used as the background for a focused group shown in datagrid">#222327</GroupsFocusedBackgroundStart>
+  <GroupsFocusedBackgroundEnd description="Ending color of the gradient used as the background for a focused group shown in datagrid">#222327</GroupsFocusedBackgroundEnd>
   <!--Groups in main window-->
   <MainFormGroupsBackgroundStart description="Starting color of the gradient used as the background for groups shown in datagrid in the main window">#777E7D</MainFormGroupsBackgroundStart>
   <MainFormGroupsBackgroundEnd description="Ending color of the gradient used as the background for groups shown in datagrid in the main window">#777E7D</MainFormGroupsBackgroundEnd>
   <MainFormGroupsForeground description="Color of the text for a group shown in datagrid in the main window">#CCCCCC</MainFormGroupsForeground>
   <MainFormGroupsBorder description="Color of a border line for groups shown in datagrid in the main window">#E7E8E9</MainFormGroupsBorder>
   <MainFormGroupsItemsCount description="Color of the items count text in a group shown in datagrid in the main window">#A0A0A0</MainFormGroupsItemsCount>
-  <MainFormGroupsSelectedBackgroundStart description="Starting color of the gradient used as the background for selected groups shown in datagrid in the main window">#777E7D</MainFormGroupsSelectedBackgroundStart>
-  <MainFormGroupsSelectedBackgroundEnd description="Ending color of the gradient used as the background for selected groups shown in datagrid in the main window">#777E7D</MainFormGroupsSelectedBackgroundEnd>
+  <MainFormGroupsSelectedBackgroundStart description="Starting color of the gradient used as the background for selected groups shown in datagrid in the main window">#26272A</MainFormGroupsSelectedBackgroundStart>
+  <MainFormGroupsSelectedBackgroundEnd description="Ending color of the gradient used as the background for selected groups shown in datagrid in the main window">#26272A</MainFormGroupsSelectedBackgroundEnd>
   <MainFormGroupsSelectedForeground description="Color of the text for a selected group shown in datagrid in the main window">#FFFFFF</MainFormGroupsSelectedForeground>
-  <MainFormGroupsFocusedBackgroundStart description="Starting color of the gradient used as the background for a focused group shown in datagrid in the main window">#777E7D</MainFormGroupsFocusedBackgroundStart>
-  <MainFormGroupsFocusedBackgroundEnd description="Ending color of the gradient used as the background for a focused group shown in datagrid in the main window">#777E7D</MainFormGroupsFocusedBackgroundEnd>
+  <MainFormGroupsFocusedBackgroundStart description="Starting color of the gradient used as the background for a focused group shown in datagrid in the main window">#222327</MainFormGroupsFocusedBackgroundStart>
+  <MainFormGroupsFocusedBackgroundEnd description="Ending color of the gradient used as the background for a focused group shown in datagrid in the main window">#222327</MainFormGroupsFocusedBackgroundEnd>
   <!--Groups in a sidebar box-->
   <SidebarGroupsBackgroundStart description="Starting color of the gradient used as the background for groups shown in datagrid in sidebar">#777E7D</SidebarGroupsBackgroundStart>
   <SidebarGroupsBackgroundEnd description="Ending color of the gradient used as the background for groups shown in datagrid in sidebar">#777E7D</SidebarGroupsBackgroundEnd>
   <SidebarGroupsForeground description="Color of the text for a group shown in datagrid in sidebar">#CCCCCC</SidebarGroupsForeground>
   <SidebarGroupsBorder description="Color of a border line for groups shown in datagrid in sidebar">#E7E8E9</SidebarGroupsBorder>
   <SidebarGroupsItemsCount description="Color of the items count text in a group shown in datagrid in sidebar">#A0A0A0</SidebarGroupsItemsCount>
-  <SidebarGroupsSelectedBackgroundStart description="Starting color of the gradient used as the background for selected groups shown in datagrid in sidebar">#777E7D</SidebarGroupsSelectedBackgroundStart>
-  <SidebarGroupsSelectedBackgroundEnd description="Ending color of the gradient used as the background for selected groups shown in datagrid in sidebar">#777E7D</SidebarGroupsSelectedBackgroundEnd>
+  <SidebarGroupsSelectedBackgroundStart description="Starting color of the gradient used as the background for selected groups shown in datagrid in sidebar">#26272A</SidebarGroupsSelectedBackgroundStart>
+  <SidebarGroupsSelectedBackgroundEnd description="Ending color of the gradient used as the background for selected groups shown in datagrid in sidebar">#26272A</SidebarGroupsSelectedBackgroundEnd>
   <SidebarGroupsSelectedForeground description="Color of the text for a selected group shown in datagrid in sidebar">#FFFFFF</SidebarGroupsSelectedForeground>
-  <SidebarGroupsFocusedBackgroundStart description="Starting color of the gradient used as the background for a focused group shown in datagrid in sidebar">#777E7D</SidebarGroupsFocusedBackgroundStart>
-  <SidebarGroupsFocusedBackgroundEnd description="Ending color of the gradient used as the background for a focused group shown in datagrid in sidebar">#777E7D</SidebarGroupsFocusedBackgroundEnd>
+  <SidebarGroupsFocusedBackgroundStart description="Starting color of the gradient used as the background for a focused group shown in datagrid in sidebar">#222327</SidebarGroupsFocusedBackgroundStart>
+  <SidebarGroupsFocusedBackgroundEnd description="Ending color of the gradient used as the background for a focused group shown in datagrid in sidebar">#222327</SidebarGroupsFocusedBackgroundEnd>
   <!--Sidebar-->
   <SidebarMinimizedFontColor description="Color of the text used when the whole sidebar is minimized">#FFFFFF</SidebarMinimizedFontColor>
   <SidebarMinimizedMouseOverFontColor description="Color of the text used when the whole sidebar is minimized and the mouse is over the text">#CCCCCC</SidebarMinimizedMouseOverFontColor>
-  <SidebarDataGridBackground description="Background color of a datagrid used in sidebar">#777E7D</SidebarDataGridBackground>
-  <SidebarBorder description="Color of the (outer) border line of the sidebar box">#777E7D</SidebarBorder>
+  <SidebarDataGridBackground description="Background color of a datagrid used in sidebar">#303136</SidebarDataGridBackground>
+  <SidebarBorder description="Color of the (outer) border line of the sidebar box">#26272A</SidebarBorder>
   <SidebarBorderLight description="Color of the inner border line used in the sidebar box header">Transparent</SidebarBorderLight>
-  <SidebarMinimizedBackgroundStart description="Starting color of the gradient used for the background of sidebar when the sidebar is minimized">#777E7D</SidebarMinimizedBackgroundStart>
-  <SidebarMinimizedBackgroundEnd description="Ending color of the gradient used for the background of sidebar when the sidebar is minimized">#777E7D</SidebarMinimizedBackgroundEnd>
+  <SidebarMinimizedBackgroundStart description="Starting color of the gradient used for the background of sidebar when the sidebar is minimized">#26272A</SidebarMinimizedBackgroundStart>
+  <SidebarMinimizedBackgroundEnd description="Ending color of the gradient used for the background of sidebar when the sidebar is minimized">#26272A</SidebarMinimizedBackgroundEnd>
   <SidebarMaximizedBackgroundStart description="Starting color of the gradient used as the background of sidebar when the sidebar is expanded">Transparent</SidebarMaximizedBackgroundStart>
   <SidebarMaximizedBackgroundEnd description="Ending color of the gradient used as the background of sidebar when the sidebar is expanded">Transparent</SidebarMaximizedBackgroundEnd>
   <SidebarCloseButtonBackgroundStart description="Starting color of the gradient used as the background for the close button of the right sidebar if the mouse is over the button">#191A22</SidebarCloseButtonBackgroundStart>
@@ -226,8 +226,8 @@
   <SidebarButtonBackgroundStart description="Starting color of the gradient used as the background for buttons in sidebar">#000000</SidebarButtonBackgroundStart>
   <SidebarButtonBackgroundEnd description="Ending color of the gradient used as the background for buttons in sidebar">#000000</SidebarButtonBackgroundEnd>
   <SidebarButtonFontColor description="Color of the text for buttons in sidebar">#FFFFFF</SidebarButtonFontColor>
-  <SidebarButtonToggledBackgroundStart description="Starting color of the gradient used as the background for buttons in sidebar when the button is in a toggled state">#777E7D</SidebarButtonToggledBackgroundStart>
-  <SidebarButtonToggledBackgroundEnd description="Ending color of the gradient used as the background for buttons in sidebar when the button is in a toggled state">#777E7D</SidebarButtonToggledBackgroundEnd>
+  <SidebarButtonToggledBackgroundStart description="Starting color of the gradient used as the background for buttons in sidebar when the button is in a toggled state">#222327</SidebarButtonToggledBackgroundStart>
+  <SidebarButtonToggledBackgroundEnd description="Ending color of the gradient used as the background for buttons in sidebar when the button is in a toggled state">#222327</SidebarButtonToggledBackgroundEnd>
   <SidebarButtonToggleFontColor description="Color of the text for buttons in sidebar when the button is in a toggled state">#FFFFFF</SidebarButtonToggleFontColor>
   <SidebarContactDetailsBackground description="Background color of the right sidebar contact details">#777E7D</SidebarContactDetailsBackground>
   <SidebarContactDetailsCaptionForeground description="Text color of the contact caption in right sidebar contact details">#FFFFFF</SidebarContactDetailsCaptionForeground>
@@ -254,7 +254,7 @@
   <!--Popup windows-->
   <PopupFormBackgroundStart description="Starting color of the gradient used as the background for popup windows">#777E7D</PopupFormBackgroundStart>
   <PopupFormBackgroundEnd description="Ending color of the gradient used as the background for popup windows">#777E7D</PopupFormBackgroundEnd>
-  <PopupFormBorder description="Color of the border line for a popup window">#777E7D</PopupFormBorder>
+  <PopupFormBorder description="Color of the border line for a popup window">#303136</PopupFormBorder>
   <PopupFormForeground description="Color of the text in a popup window">#FFFFFF</PopupFormForeground>
   <!--Tree structure-->
   <TreeViewFirstLevelForeground description="Text color for the first-level text in a tree structure">#FFFFFF</TreeViewFirstLevelForeground>
@@ -304,22 +304,22 @@
   <NotificationWindowGrayText description="Color of the grayed text in a notification window">#C8C8C8</NotificationWindowGrayText>
   <NotificationWindowBackgroundStart description="Starting color of the gradient used as the background for notification windows">#777E7D</NotificationWindowBackgroundStart>
   <NotificationWindowBackgroundEnd description="Ending color of the gradient used as the background for notification windows">#777E7D</NotificationWindowBackgroundEnd>
-  <NotificationWindowHeaderStart description="Starting color of the gradient used as the background for header of notification windows">#777E7D</NotificationWindowHeaderStart>
-  <NotificationWindowHeaderEnd description="Ending color of the gradient used as the background for header of notification windows">#777E7D</NotificationWindowHeaderEnd>
+  <NotificationWindowHeaderStart description="Starting color of the gradient used as the background for header of notification windows">#222327</NotificationWindowHeaderStart>
+  <NotificationWindowHeaderEnd description="Ending color of the gradient used as the background for header of notification windows">#222327</NotificationWindowHeaderEnd>
   <NotificationWindowHeaderBorder description="Color of the border line around notification windows header">Transparent</NotificationWindowHeaderBorder>
-  <NotificationWindowBorder description="Border line color around a notification window">#777E7D</NotificationWindowBorder>
+  <NotificationWindowBorder description="Border line color around a notification window">#303136</NotificationWindowBorder>
   <NotificationWindowBackgroundGradientAngle description="An angle in which the gradient used as a background for a notification window will be shown">0</NotificationWindowBackgroundGradientAngle>
   <NotificationWindowUseRoundedCorners description="Specifies if the notification windows should have rounded corners">False</NotificationWindowUseRoundedCorners>
   <!--Calendar-->
   <CalendarMainNavigationBackground description="Background color of the topmost space of the calendar where date and navigation arrows are present">#777E7D</CalendarMainNavigationBackground>
   <CalendarMainNavigationForeground description="Font color of the topmost space of the calendar where date and navigation arrows are present">#FFFFFF</CalendarMainNavigationForeground>
-  <CalendarHeaderStart description="Starting color of the gradient used as the background for header with days in a calendar">#777E7D</CalendarHeaderStart>
-  <CalendarHeaderEnd description="Ending color of the gradient used as the background for header with days in a calendar">#777E7D</CalendarHeaderEnd>
+  <CalendarHeaderStart description="Starting color of the gradient used as the background for header with days in a calendar">#303136</CalendarHeaderStart>
+  <CalendarHeaderEnd description="Ending color of the gradient used as the background for header with days in a calendar">#303136</CalendarHeaderEnd>
   <CalendarHeaderFontColor description="Color of the text in a header with days in a calendar">#FFFFFF</CalendarHeaderFontColor>
   <CalendarTodayHeaderFontColor description="Color of the text for a current day in a header with days in a calendar">#FFFFFF</CalendarTodayHeaderFontColor>
-  <CalendarSubheaderBackground description="Background color of a space between the header with days and the main calendar view (week or day calendar view)">#777E7D</CalendarSubheaderBackground>
-  <CalendarBackground description="Background color of a calendar">#777E7D</CalendarBackground>
-  <CalendarNonWorkingHoursBackground description="Background color of a calendar for the time which is outside the working time (week or day view)">#777E7D</CalendarNonWorkingHoursBackground>
+  <CalendarSubheaderBackground description="Background color of a space between the header with days and the main calendar view (week or day calendar view)">#26272A</CalendarSubheaderBackground>
+  <CalendarBackground description="Background color of a calendar">#26272A</CalendarBackground>
+  <CalendarNonWorkingHoursBackground description="Background color of a calendar for the time which is outside the working time (week or day view)">#303136</CalendarNonWorkingHoursBackground>
   <CalendarHoursBackground description="Background color of a left-side bar with hours in a week or day view">#777E7D</CalendarHoursBackground>
   <CalendarHoursFontColor description="Color of the text a left-side bar with hours in a week or day view">#FFFFFF</CalendarHoursFontColor>
   <CalendarActiveDayBackground description="Background color of an currently selected day in a calendar">#000000</CalendarActiveDayBackground>
@@ -335,7 +335,7 @@
   <CalendarHeaderBorder description="Border line color around calendar header">#787878</CalendarHeaderBorder>
   <CalendarCurrentTimeLine description="Color of a line displaying current time in a week view">#FF4500</CalendarCurrentTimeLine>
   <CalendarEvenMonthBackground description="Alternating background color for even months in a calendar (month view)">#777E7D</CalendarEvenMonthBackground>
-  <CalendarTasksHeaderBackground description="Background color of a header for tasks shown below the calendar in day or week view">#777E7D</CalendarTasksHeaderBackground>
+  <CalendarTasksHeaderBackground description="Background color of a header for tasks shown below the calendar in day or week view">#303136</CalendarTasksHeaderBackground>
   <CalendarTasksDraggedTaskPointer description="Color of a pointer when dragging a task shown below the calendar in day or week view">#FF0000</CalendarTasksDraggedTaskPointer>
   <CalendarUseTransparencyForUnselectedEvents description="Specifies whether unselected events in calendar is drawn transparent">False</CalendarUseTransparencyForUnselectedEvents>
   <CalendarUseLinearGradientsForEvents description="Specifies whether events' background is solid or a linear gradient is used">False</CalendarUseLinearGradientsForEvents>
@@ -343,17 +343,17 @@
   <DateSelectorForeground description="Text color of the small preview calendar">#FFFFFF</DateSelectorForeground>
   <DateSelectorInactiveForeground description="Text color of a non-active month in the small preview calendar">#CCCCCC</DateSelectorInactiveForeground>
   <DateSelectorSelectionBorder description="Color of the border line for the selected dates in the small preview calendar">#FFFFFF</DateSelectorSelectionBorder>
-  <DateSelectorSelectionBackgroundStart description="Starting color of the gradient used as a background for the selected dates in the small preview calendar">#777E7D</DateSelectorSelectionBackgroundStart>
-  <DateSelectorSelectionBackgroundEnd description="Ending color of the gradient used as a background for the selected dates in the small preview calendar">#777E7D</DateSelectorSelectionBackgroundEnd>
-  <DateSelectorSelectionInactiveBackgroundStart description="Starting color of the gradient used as a background for the selected dates in the small preview calendar when it is not active">#777E7D</DateSelectorSelectionInactiveBackgroundStart>
-  <DateSelectorSelectionInactiveBackgroundEnd description="Ending color of the gradient used as a background for the selected dates in the small preview calendar when it is not active">#777E7D</DateSelectorSelectionInactiveBackgroundEnd>
+  <DateSelectorSelectionBackgroundStart description="Starting color of the gradient used as a background for the selected dates in the small preview calendar">#222327</DateSelectorSelectionBackgroundStart>
+  <DateSelectorSelectionBackgroundEnd description="Ending color of the gradient used as a background for the selected dates in the small preview calendar">#222327</DateSelectorSelectionBackgroundEnd>
+  <DateSelectorSelectionInactiveBackgroundStart description="Starting color of the gradient used as a background for the selected dates in the small preview calendar when it is not active">#303136</DateSelectorSelectionInactiveBackgroundStart>
+  <DateSelectorSelectionInactiveBackgroundEnd description="Ending color of the gradient used as a background for the selected dates in the small preview calendar when it is not active">#303136</DateSelectorSelectionInactiveBackgroundEnd>
   <DateSelectorSelectionInactiveBorder description="Color of the border line for the selected dates in the small preview calendar when it is not active">Transparent</DateSelectorSelectionInactiveBorder>
   <UseRoundedCornersForDateSelector description="Specifies if a background for selected dates in a small preview calendar should be drawn with rounded corners">False</UseRoundedCornersForDateSelector>
   <!--Contact business cards-->
   <BusinessCardsBorder description="Border line color of a contact if switched to a business cards view">#FFFFFF</BusinessCardsBorder>
   <BusinessCardsForeground description="Text color of a contact if switched to a business cards view">#FFFFFF</BusinessCardsForeground>
   <BusinessCardsSelectedBorder description="Border line color of a contact under the mouse position if switched to a business cards view">#BFDAE8</BusinessCardsSelectedBorder>
-  <BusinessCardsSelectedBackground description="Background color of a selected contact if switched to a business cards view">#777E7D</BusinessCardsSelectedBackground>
+  <BusinessCardsSelectedBackground description="Background color of a selected contact if switched to a business cards view">#222327</BusinessCardsSelectedBackground>
   <BusinessCardsBackground description="Border line color of a selected contact if switched to a business cards view">#777E7D</BusinessCardsBackground>
   <BusinessCardsCardBackground description="Background color of a contact if switched to a business cards view">#777E7D</BusinessCardsCardBackground>
   <BusinessCardsHorizontalLine description="Color of a horizontal line between contacts">#D3D3D3</BusinessCardsHorizontalLine>
@@ -375,7 +375,7 @@
   <StatusBarInfiniteProgressBackground description="Background color of the infinite progress line">#191A22</StatusBarInfiniteProgressBackground>
   <StatusBarProgress description="Color if the progress line">#FF9400</StatusBarProgress>
   <StatusBarBackground description="Background color of a status bar">#777E7D</StatusBarBackground>
-  <StatusBarBackgroundOver description="Background color of a minimized status bar when the mouse is over">#777E7D</StatusBarBackgroundOver>
+  <StatusBarBackgroundOver description="Background color of a minimized status bar when the mouse is over">#303136</StatusBarBackgroundOver>
   <StatusBarForeground description="Text color of a status bar">#FFFFFF</StatusBarForeground>
   <StatusBarBackgroundOffline description="Background color of a status bar when the app is in offline mode">#CC0000</StatusBarBackgroundOffline>
   <StatusBarForegroundOffline description="Text color of a status bar when the app is in offline mode">#FFFFFF</StatusBarForegroundOffline>
@@ -385,14 +385,14 @@
   <ScrollbarThumbHover description="Color of a scrollbar thumb when the mouse is over">#808080</ScrollbarThumbHover>
   <!--Tab control-->
   <TabForeColor description="Text color of active tab page">#FFFFFF</TabForeColor>
-  <TabBackColor description="Background color of active tab page">#777E7D</TabBackColor>
+  <TabBackColor description="Background color of active tab page">#303136</TabBackColor>
   <TabInactiveForeColor description="Text color of inactive tab page">#FFFFFF</TabInactiveForeColor>
   <TabInactiveBackColor description="Background color of inactive tab page">#777E7D</TabInactiveBackColor>
   <!--Account wizard-->
-  <AccountWizardBoxHeaderCollapsed description="Background color of a collapsed header in the account wizard">#777E7D</AccountWizardBoxHeaderCollapsed>
+  <AccountWizardBoxHeaderCollapsed description="Background color of a collapsed header in the account wizard">#303136</AccountWizardBoxHeaderCollapsed>
   <AccountWizardBoxHeaderExpanded description="Background color of an expanded header in the account wizard">#191A22</AccountWizardBoxHeaderExpanded>
   <AccountWizardBoxBackground description="Background of an expanded header in the account wizard">#777E7D</AccountWizardBoxBackground>
-  <AccountWizardSelectedItemGradientStart description="Starting color of a gradient used for the backgroud of a selected item in the account wizard">#777E7D</AccountWizardSelectedItemGradientStart>
+  <AccountWizardSelectedItemGradientStart description="Starting color of a gradient used for the backgroud of a selected item in the account wizard">#303136</AccountWizardSelectedItemGradientStart>
   <AccountWizardSelectedItemGradientEnd description="Ending color of a gradient used for the backgroud of a selected item in the account wizard">#777E7D</AccountWizardSelectedItemGradientEnd>
   <ToolStripColors>
     <ButtonColors>
@@ -499,7 +499,7 @@
   </HighlightedButtonColors>
   <MenuColors>
     <MenuBackColor description="Gets the background color of a context menu">#777E7D</MenuBackColor>
-    <MenuBorder description="Gets the color that is used for the border of a context menu">#777E7D</MenuBorder>
+    <MenuBorder description="Gets the color that is used for the border of a context menu">#26272A</MenuBorder>
     <MenuItemBorder description="Gets the border color to use with a ToolStrip menu item">Transparent</MenuItemBorder>
     <MenuItemPressedBackColor description="Gets the background color for the pressed menu item">#FF9400</MenuItemPressedBackColor>
     <MenuItemSelectedBackColor description="Gets the background color for the selected menu item">#FF9400</MenuItemSelectedBackColor>
@@ -513,11 +513,11 @@
     <MenuItemInvertExpandArrow description="Indicates if the expand arrow should have inverted colors if the menu item is in normal state">True</MenuItemInvertExpandArrow>
     <MenuItemPressedInvertExpandArrow description="Indicates if the expand arrow should have inverted colors if the menu item is pressed">True</MenuItemPressedInvertExpandArrow>
     <MenuItemSelectedInvertExpandArrow description="Indicates if the expand arrow should have inverted colors if the menu item is selected">True</MenuItemSelectedInvertExpandArrow>
-    <SeparatorColor description="Gets the color for separators">#777E7D</SeparatorColor>
+    <SeparatorColor description="Gets the color for separators">#303136</SeparatorColor>
   </MenuColors>
   <IsModernTheme description="Specifies if the theme is derived from a modern theme (there are several differences in calculating the size of user interface elements)">True</IsModernTheme>
   <IsDarkTheme description="Specifies if the theme is derived from a dark theme">True</IsDarkTheme>
   <Screenshot description="Specifies a base64 encoded screenshot image" />
-  <SidebarGridConversationCountBackground>#777E7D</SidebarGridConversationCountBackground>
+  <SidebarGridConversationCountBackground>#222327</SidebarGridConversationCountBackground>
   <SidebarGridConversationCountForeground>#FFFFFF</SidebarGridConversationCountForeground>
-</tekFranz_Theme>
+</DarkColorTheme>
